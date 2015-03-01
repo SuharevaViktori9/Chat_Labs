@@ -1,0 +1,123 @@
+body {background-color: #f2ee8f;}
+h1 { color: lightskyblue;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 { color: #56ccc5;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    text-decoration-color: #56ccc5;
+    font-size: 40px;
+    background-color: #f2ee8f;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: 8px;
+    margin: 0px;
+}
+
+.b1 {
+    background: lightskyblue;
+    color: #f2ee8f;
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fl  { color: lightskyblue;
+    font-family: Times New Roman;
+    font-style: italic;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+.redItal  { color: #56ccc5;
+    font-family: Times New Roman;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p1  { color: #56ccc5;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-indent: 21px;
+    padding-left: 321px;
+    text-align: justify;
+
+}
+
+body { 	margin-left: 0px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+b2 { color: #56ccc5;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    text-decoration-color: #56ccc5;
+    margin-left: 320px;
+    margin-top: 200px;
+    margin-right: 0px;
+    margin-bottom: 300px;
+    font-weight: bold;
+}
+b3 { color: #56ccc5;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    text-decoration-color: #56ccc5;
+    margin-left: 1360px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.inverse { font-family: Arial;
+    font-weight: bold;
+    background: #cbcc87;
+    font-weight: bold;
+    color: #FF9900;
+}
+#nav ul {
+    margin-top: -40%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    margin-left: 85%;
+    padding: 0px;
+    list-style:none;
+    width:200px;
+    font-weight: bold;
+}
+#nav ul li {
+    position: relative;
+    border-bottom:1px solid #56ccc5;
+}
+
+#nav li ul {
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    display: none;
+}
+#nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #56ccc5;
+    background: #fff;
+    padding: 5px;
+}
+#nav li:hover ul, #nav li.jshover ul {
+    display: block;
+}
+
+#nav li:hover  a, #nav li.jshover a {
+    color:#FFFFFF;
+}
+
+#nav li:hover ul a:hover, #nav li.jshover ul a:hover {
+    background-color: #56ccc5;
+    background-image:none;
+    color:#FFFFFF;
+}
