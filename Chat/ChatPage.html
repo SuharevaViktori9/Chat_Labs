@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    </table><br><hr width="100%" align="left">
-    <marquee behavior="scroll" bgcolor="FF9966" width="100%"><h2>NICE CHAT</h2></marquee>
-    <hr width="100%" align="left"><br>
-    <link rel="stylesheet" type="text/css" href="my.css" />
+    <marquee>
+        <div class="niceChat">NICE CHAT
+        </div>
+    </marquee>
+    <hr width="100%" align="left">
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<script type="text/javascript">
-    jsHover = function() {
-        var hEls = document.getElementById("nav").getElementsByTagName("LI");
-        for (var i=0, len=hEls.length; i<len; i++) {
-            hEls[i].onmouseover=function() { this.className+=" jshover"; }
-            hEls[i].onmouseout=function() { this.className=this.className.replace(" jshover", ""); }
-        }
-    }
-    if (window.attachEvent && navigator.userAgent.indexOf("Opera")==-1) window.attachEvent("onload", jsHover);
-</script>
+<script src="chat.js"></script>
 
-<body>
-<table width="100%" border="0">
-    <b2>
-        Search:
-        <textarea name="Search" value="Search" style="background-color: #bbf1ff; height:15px;width:300px; overflow-y: scroll"></textarea>
-    </b2>
+<body onload="run();">
+<section class="dialog">
+    <div id="profile">
+        <form>
+            <div class="userName">
+                User Name:
+            </div>
+            <input id="logEnter" type="button" class="userNameButton" value="UserName" onclick = "Input()">
+            <div class="changeName">
+                Change User Name:
+            </div>
+            <input id="logChange" type="button" class="changeNameButton" value="ChangeName" onclick = "Change()">
+        </form>
+    </div>
+    <div class="menu">
+        Menu
+    </div>
     <tr>
         <td>
             <div id="nav">
@@ -42,19 +45,20 @@
             </div>
         </td>
     </tr>
-    <b3>
-        Menu
-    </b3>
-        <center><div style="height:483px;width:941px;background-color: #bbf1ff; overflow : scroll;">
-        </div></center>
-    <p>
-        <marquee behavior="scroll" bgcolor="FF9966" width="40%" ><p1>Your message</p1></marquee>
-    </p>
-    <center>
-        <textarea name="comment" cols="40" rows="3" style="background-color: #bbf1ff; height:103px;width:941px; overflow-y: scroll"></textarea></p>
-        <p><input type="submit" class="b1" value="Send">
-            <input type="reset" class="b1" value="Clear" style=""></p>
-    </center>
-</table>
+    <div id="dialogStyle">
+        <div class="messages">
+        </div>
+    </div>
+    <marquee>
+        <div class="messageLine">Your message
+        </div>
+    </marquee>
+    <div id = "message">
+        <textarea id="windowMessage">
+        </textarea>
+        <button id="sendButton" type="button" class="sendButton">Send</button>
+        <button id="deleteButton" type="button" class="deleteButton">Clear</button>
+    </div>
+</section>
 </body>
 </html>
