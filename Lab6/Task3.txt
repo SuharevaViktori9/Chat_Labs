@@ -1,0 +1,13 @@
+POST http://localhost:999/chat HTTP/1.1
+User-Agent: Composer
+Host: localhost:999
+Content-Type: application/json
+Content-Length: 19
+
+{"message": "roof"}
+HTTP/1.1 200 OK
+Date: Tue, 31 Mar 2015 14:04:05 GMT
+Transfer-encoding: chunked
+Access-control-allow-origin: *
+
+0
