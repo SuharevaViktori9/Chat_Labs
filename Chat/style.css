@@ -1,0 +1,165 @@
+body {
+    background-color: #f2ee8f;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.niceChat { color: #56ccc5;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    text-decoration-color: #56ccc5;
+    font-size: 40px;
+    background-color: #f2ee8f;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: 8px;
+    margin: 0px;
+}
+
+.serverStatus {
+    color: #56ccc5;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    text-decoration-color: #56ccc5;
+    margin-left: 1%;
+    margin-top: 15%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@-webkit-keyframes pulsate {
+    50% { color: #56ccc5; text-shadow: 0 -1px rgba(255, 255, 255, 0.30), 0 0 5px #56ccc5, 0 0 8px #56ccc5; }
+}
+@keyframes pulsate {
+    50% { color: #56ccc5; text-shadow: 0 -1px rgba(255, 255, 255, 0.30), 0 0 5px #56ccc5, 0 0 8px #56ccc5; }
+}
+#blink7 {
+    color: rgb(86, 204, 197);
+    text-shadow: 0 -1px rgba(255, 255, 255, 0.10);
+    background: #f2ee8f;
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+}
+
+.serverIcon {
+    color: lightskyblue;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 19%;
+    position: absolute;
+}
+
+.userName { color: lightskyblue;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 77%;
+    position: absolute;
+}
+
+.name{
+    background-color: #bbf1ff;
+    color: #1434f2;
+    font-weight: bold;
+}
+
+.userNameButton {
+    background: lightskyblue;
+    color: #f2ee8f;
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 77%;
+    position: absolute;
+}
+
+.userPhoto { color: #56ccc5;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    text-decoration-color: #56ccc5;
+    margin-left: 1%;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    position: absolute;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.check {
+    margin-left: 77%;
+    position: absolute;
+    visibility : hidden
+}
+
+#dialogStyle {
+    height:400px;
+    width:900px;
+    position: static;
+    background-color: #bbf1ff;
+    overflow : scroll;
+    margin-left: 20%;
+    margin-top: 1.5%;
+}
+
+.messageLine  { color: #56ccc5;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-indent: 21px;
+}
+
+#profile {
+background-color: #f2ee8f;
+}
+
+#message {
+    background-color: #f2ee8f;
+    bottom: 0%;
+    right:0%;
+    height: 15%;
+    width: 100%;
+}
+
+#windowMessage {
+    background-color: #bbf1ff;
+    height:100px;
+    width:900px;
+    overflow-y: scroll;
+    margin-left: 20%;
+}
+
+.sendButton {
+    background: lightskyblue;
+    color: #f2ee8f;
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20%;
+}
+
+.edit {
+    background: lightskyblue;
+    color: #f2ee8f;
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.delete {
+    background: lightskyblue;
+    color: #f2ee8f;
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 5%;
+}
